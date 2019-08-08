@@ -46,7 +46,7 @@ export default {
           duration: 3000
         });
       } else {
-        console.log("Will redirect..!");
+        this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
       }
     }
   }
